@@ -12,7 +12,7 @@ Regex is used to validate credit card types and a Luhn check is performed on the
  - Smooth interface
  - Identifies credit card type
  - Hides number for privacy
- - Supports VISA, MasterCard, Discover and AMEX
+ - Supports VISA, MasterCard, Discover, AMEX and Codensa (Colombia)
 
 ![][1]
 
