@@ -95,6 +95,7 @@ public class CreditCardUtil {
 		case MASTERCARD:
 		case JCB:
 		case DISCOVER: // { 4-4-4-4}
+		case CODENSA:
 			gaps.add(" ");
 			segmentLengths[0] = 4;
 			gaps.add(" ");
@@ -149,6 +150,7 @@ public class CreditCardUtil {
 		case MASTERCARD:
 		case JCB:
 		case DISCOVER: // { 4-4-4-4}
+		case CODENSA:
 			idx = 16 + 3;
 			break;
 		case AMEX: // {4-6-5}
@@ -246,6 +248,7 @@ public class CreditCardUtil {
 		case VISA:
 		case DINERS:
 		case JCB:
+		case CODENSA:
 		default:
 			return 3;
 		}
